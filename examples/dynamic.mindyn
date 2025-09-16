@@ -1,0 +1,9 @@
+def dynamic_add(a, b) {
+  return a + b;
+}
+
+// First call with numbers
+dynamic_add(5, 10);
+
+// Second call with strings (would require type checking, currently a placeholder)
+// dynamic_add("hello", " world");

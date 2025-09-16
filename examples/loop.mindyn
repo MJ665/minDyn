@@ -1,0 +1,11 @@
+def sum_loop() {
+  i = 0;
+  sum = 0;
+  while (i < 1000) {
+    sum = sum + i;
+    i = i + 1;
+  }
+  return sum;
+}
+
+sum_loop();
